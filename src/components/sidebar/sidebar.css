@@ -1,0 +1,9 @@
+.aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: var(--body-color);
+    border-right: 1px solid rgba (0, 0, 0, 0.05);
+    padding: 2.5rem;
+    width: 110px;
+}
