@@ -138,7 +138,7 @@ img {
   border-radius: 1.875rem;
   box-shadow: 0 0 1px rgb(0 0 0 / 0%);
   border: 1px solid transparent;
-  color: #fff;
+  color: hsl(43, 100%, 68%);
   display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
