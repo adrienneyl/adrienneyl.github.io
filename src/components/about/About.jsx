@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.svg"
+import AboutBox from './AboutBox';
 
 const About = () => {
     return (
@@ -23,39 +24,41 @@ const About = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">Web Development</h3>
-                                <span className="skills__number web_development">90%</span>
+                                <span className="skills__number">90%</span>
                             </div>
 
                             <div className="skills__bar">
-                                <span className="skills__percentage"></span>
+                                <span className="skills__percentage web_development"></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">UI/UX Design</h3>
-                                <span className="skills__number ui_ux_design">90%</span>
+                                <span className="skills__number">90%</span>
                             </div>
 
                             <div className="skills__bar">
-                                <span className="skills__percentage"></span>
+                                <span className="skills__percentage ui_ux_design"></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">Photography</h3>
-                                <span className="skills__number photography">90%</span>
+                                <span className="skills__number">90%</span>
                             </div>
 
                             <div className="skills__bar">
-                                <span className="skills__percentage"></span>
+                                <span className="skills__percentage photography"></span>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
+
+            <AboutBox />
         </section>
     )
 }
