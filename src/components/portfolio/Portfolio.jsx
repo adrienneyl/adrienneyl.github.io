@@ -26,7 +26,7 @@ const Portfolio = () => {
 
             <div className="work__container grid">
                 {items.map((elem) => {
-                    const{ id, image, title, category} = elem;
+                    const{id, image, title, category} = elem;
                     return (
                         <div className="work__card" key={id}>
                             <div className="work__thumbnail">
