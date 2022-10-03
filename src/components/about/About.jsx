@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/avatar-2.svg"
+import Image from "../../assets/real_icon.png"
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -15,8 +15,9 @@ const About = () => {
                     <div className="about__info">
                         <p className="about__description">
                         Hi there! My name's Adrienne and I'm a computer engineering
-                        student at the University of British Columbia. I'm passionate
-                        about creating designs that are future-proof, accessible, and inclusive.
+                        student at the University of British Columbia. I'm a self-taught
+                        UX designer who is passionate about creating designs that are 
+                        future-proof, accessible, and inclusive.
                         </p>
                     </div>
                     <div className="about__skills grid">
@@ -24,7 +25,7 @@ const About = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">Web Development</h3>
-                                <span className="skills__number">90%</span>
+                                <span className="skills__number">75%</span>
                             </div>
 
                             <div className="skills__bar">
@@ -35,7 +36,7 @@ const About = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">UI/UX Design</h3>
-                                <span className="skills__number">90%</span>
+                                <span className="skills__number">50%</span>
                             </div>
 
                             <div className="skills__bar">
@@ -46,7 +47,7 @@ const About = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">Photography</h3>
-                                <span className="skills__number">90%</span>
+                                <span className="skills__number">80%</span>
                             </div>
 
                             <div className="skills__bar">
