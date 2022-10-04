@@ -22,8 +22,8 @@ const Data = [
         category: "experience",
         icon: "icon-briefcase",
         year: "2019 - present",
-        title: "Freelance Photogragpher and Designer",
-        desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+        title: "Freelance Photographer and Designer",
+        desc: "Providing professional photography and designs for clients.",
     },
 ];
 
