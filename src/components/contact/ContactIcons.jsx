@@ -11,6 +11,10 @@ const ContactIcons = () => {
                 <i class="fa-brands fa-linkedin fa-2xl"></i>
             </a>
 
+            <a href="https://adrienneleung.carrd.co/" className="contact__icons-link">
+                <i class="fa-solid fa-camera-retro fa-2xl"></i>
+            </a>
+
             <a href="mailto:adrienne.yl07@gmail.com" className="contact__icons-link">
                 <i class="fa-solid fa-envelope fa-2xl"></i>
             </a>
