@@ -20,38 +20,6 @@ const Blog = () => {
                         <h3 className="blog__title">5 Best App Development Tool</h3>
                         <div className="blog__meta">
                             <span>Date</span>
-                            <span className="blog__dot">.</span>
-                            <span>Adrienne</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="blog__card">
-                    <div className="blog__thumb">
-                        <a href="#"><span className="blog__category"></span></a>
-                        <a href="#"><img src={Image1} alt="" className="blog__img" /></a>
-                    </div>
-                    <div className="blog__details">
-                        <h3 className="blog__title"></h3>
-                        <div className="blog__meta">
-                            <span></span>
-                            <span className="blog__dot">.</span>
-                            <span>Adrienne</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="blog__card">
-                    <div className="blog__thumb">
-                        <a href="#"><span className="blog__category"></span></a>
-                        <a href="#"><img src={Image1} alt="" className="blog__img" /></a>
-                    </div>
-                    <div className="blog__details">
-                        <h3 className="blog__title"></h3>
-                        <div className="blog__meta">
-                            <span></span>
-                            <span className="blog__dot">.</span>
-                            <span>Adrienne</span>
                         </div>
                     </div>
                 </div>
