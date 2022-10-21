@@ -1,6 +1,6 @@
 import React from 'react';
 import "./home.css";
-import Me from "../../assets/icon.png";
+import Me from "../../assets/updated_icon.png";
 import Shapes from './Shapes';
 
 const Home = () => {
