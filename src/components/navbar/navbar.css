@@ -1,0 +1,19 @@
+.navbar-logo {
+    float: left;
+    padding-top: 1.5rem;
+    padding-left: 20px;
+}
+
+.navbar_buttons {
+    float: right;
+    padding-top: 1.5rem;
+    padding-right: 20px;
+}
+
+.navbar_buttons button {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
