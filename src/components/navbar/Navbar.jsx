@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="navbar-logo">
+      <div className="navbar_logo">
         <h1>Adrienne Leung</h1>
       </div>
       <div className="navbar_buttons">

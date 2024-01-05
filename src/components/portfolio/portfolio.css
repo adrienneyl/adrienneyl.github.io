@@ -1,0 +1,10 @@
+.container_padding {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.proj-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
