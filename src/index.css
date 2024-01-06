@@ -1,5 +1,5 @@
 /*----- GOOGLE FONTS -----*/
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /*----- Variables CSS -----*/
 :root {
@@ -13,7 +13,7 @@
 
   /*----- Font and Typography ------*/
   /* 0.5rem - 8px | 1rem = 16px ... */
-  --body-font: 'Rubik', sans-serif;
+  --body-font: 'Inter', sans-serif;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
