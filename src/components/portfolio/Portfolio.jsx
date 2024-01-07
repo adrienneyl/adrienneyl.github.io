@@ -4,13 +4,17 @@ import { Link } from 'react-router-dom';
 
 import Footer from "./../../components/footer/Footer";
 
+import lfsmockup from "./../../assets/lfslc/mockup.jpg";
+
 function Portfolio() {
   return (
     <div className="footer-container">
       <div className="padding-container">
         <div className="intro_section">
-          <p>Hi there!</p>
-          <p>I'm Adrienne, a UI/UX designer and full-stack developer who uses their background in engineering to create inclusive digital experiences.</p>
+          <p>
+            Hi there! I'm a UI/UX designer and full-stack developer who uses their background in
+            engineering to create inclusive digital experiences.
+          </p>
         </div>
 
         <div className="projects">
@@ -25,9 +29,9 @@ function Portfolio() {
               </p>
             </div>
             <div className="proj-right-col">
-              <img></img>
-              <p>UBC LFS LC Website</p>
-              <p>Website redesign and rebranding for UBC LFS' Learning Centre.</p>
+              <img src={lfsmockup} alt="lfs mockup"/>
+              <p>UBC LFS LC Website Redesign</p>
+              <p>Refreshing an internal faculty website to better serve its audience.</p>
               <p>
                 <Link to="/project-lfslc">View</Link>
               </p>

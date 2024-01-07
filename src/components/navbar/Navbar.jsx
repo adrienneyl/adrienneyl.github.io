@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar_logo">
-        <h1>Adrienne Leung</h1>
+        <h1>adrienne leung</h1>
       </div>
       <div className="navbar_buttons">
         <Link to ="/">

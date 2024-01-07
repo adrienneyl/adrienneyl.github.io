@@ -4,7 +4,9 @@
 }
 
 .padding-container {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+  /* for footer */
+  padding-bottom: 150px;
 }

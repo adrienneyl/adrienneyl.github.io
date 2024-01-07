@@ -7,7 +7,8 @@ function About() {
   return (
     <div className="footer-container">
       <div className="padding-container">
-
+        <p>Product Design Resume</p>
+        <p>Full-stack Developer Resume</p>
       </div>
       <Footer />
     </div>
