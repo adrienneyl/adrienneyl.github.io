@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 function Portfolio() {
   return (
-    <div className="container_padding">
+    <div>
       <div className="intro_section">
         <p>Hi there!</p>
-        <p>I'm Adrienne, a UI/UX designer and full-stack developer who uses their background in engineering to create inclusive and accesible digital experiences.</p>
+        <p>I'm Adrienne, a UI/UX designer and full-stack developer who uses their background in engineering to create inclusive digital experiences.</p>
       </div>
 
       <div className="projects">

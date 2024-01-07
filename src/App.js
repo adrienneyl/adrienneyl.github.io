@@ -7,21 +7,25 @@ import Portfolio from './components/portfolio/Portfolio';
 import About from './components/about/About';
 import Lfslc from './components/lfslc/Lfslc';
 import Epilog from './components/epilog/Epilog';
-
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <div>
+      <div className="padding-container">
+        <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/project-lfslc" element={<Lfslc />} />
-        <Route path="/project-epilog" element={<Epilog />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Portfolio />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/project-lfslc" element={<Lfslc />} />
+          <Route path="/project-epilog" element={<Epilog />} />
+        </Routes>
+      </div>
       
-    </>
+      <Footer />
+      
+    </div>
   );
 }
 

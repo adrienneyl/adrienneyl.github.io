@@ -1,9 +1,7 @@
-.main {
-  margin-left: 110px;
-}
+.padding-container {
+  padding-left: 40px;
+  padding-right: 40px;
 
-@media screen and (max-width: 1024px) {
-  .main {
-    margin-left: 0;
-  }
+  position: relative;
+  min-height: 100vh;
 }
