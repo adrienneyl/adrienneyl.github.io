@@ -12,18 +12,14 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <div>
-      <div className="padding-container">
-        <Navbar />
+      <Navbar />
 
-        <Routes>
-          <Route path="/" element={<Portfolio />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/project-lfslc" element={<Lfslc />} />
-          <Route path="/project-epilog" element={<Epilog />} />
-        </Routes>
-      </div>
-      
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project-lfslc" element={<Lfslc />} />
+        <Route path="/project-epilog" element={<Epilog />} />
+      </Routes>
       
     </div>
   );
