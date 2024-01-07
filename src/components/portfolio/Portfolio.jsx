@@ -22,8 +22,8 @@ function Portfolio() {
           <div className="proj-cols">
             <div className="proj-left-col">
               <img></img>
-              <p>EpiLog</p>
-              <p>A mHealth mobile app that helps people with epilepsy track their epilepsy-related symptoms.</p>
+              <p>EpiLog - Seizure Tracking App</p>
+              <p>Providing a platform for people with epilepsy to track their condition.</p>
               <p>
                 <Link to="/project-epilog">View</Link>
               </p>

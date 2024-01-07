@@ -10,3 +10,23 @@
   /* for footer */
   padding-bottom: 150px;
 }
+
+.proj-col-container {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.5fr 0.45fr;
+  grid-gap: 40px;
+}
+
+.proj-content-container {
+  padding-left: 200px;
+
+  padding-bottom: 150px;
+}
+
+.proj-toc-container {
+  position: fixed;
+  right: 0;
+  padding-right: 200px;
+}
