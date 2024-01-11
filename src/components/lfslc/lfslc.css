@@ -5,8 +5,9 @@
 
 .column-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: 1fr 0.5fr;
+    grid-gap: 60px;
+    padding-bottom: 10px;
 }
 
 .two_col_cont {
@@ -20,4 +21,33 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+}
+
+.proj-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.proj-heading {
+    padding-bottom: 10px;
+}
+
+.proj-subheading {
+    padding-bottom: 10px;
+}
+
+.proj-body-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.slide-show button {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

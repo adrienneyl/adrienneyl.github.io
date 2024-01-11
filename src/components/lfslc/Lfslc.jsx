@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { HashLink } from 'react-router-hash-link';
 import './lfslc.css';
 
 import Footer from "./../../components/footer/Footer";
@@ -95,32 +96,32 @@ function Lfslc() {
 
       <div className="proj-col-container">
 
-        <div className="proj-content-container">
+        <div className="proj-content-container" id="overview">
           <div>
             <img src={widemockup} alt="lfs mockup" />
-            <h1>UBC LFS LC Website</h1>
+            <h1 className="proj-title">UBC LFS LC Website</h1>
           </div>
           <div className="column-container">
             <div className="col-left">
-              <h1>Project Overview</h1>
+              <h2 className="proj-heading">Project Overview</h2>
               <p>
-                The UBC LFS Learning Centre offers IT assistance, video conferencing support, 
-                multimedia services, and teaching workshops to LFS (Land and Food Systems) 
-                faculty members, staff, and graduate students. Its services are essential and 
-                beneficial to every day operations within the faculty. I led the redesign and 
-                implemented the changes with input and feedback from my colleagues at the 
-                Learning Centre, as well as faculty members and staff.
+                The UBC LFS Learning Centre offers IT assistance and multimedia services to 
+                UBC's LFS (Land and Food Systems) faculty members, staff, and graduate students. 
+                I led the redesign and implemented the changes with input and feedback from my 
+                colleagues at the Learning Centre, as well as faculty members and staff.
               </p>
             </div>
             <div className="col-right">
-              <h1>Role</h1>
-              <p>UI/UX Design</p>
-              <p>User Research</p>
-              <p>Front-end Development and Deployment</p>
+              <h2 className="proj-heading">Role</h2>
+              <ul>
+                <li>UX Designer</li>
+                <li>UI Designer</li>
+                <li>Front-end Developer</li>
+              </ul>
             </div>
           </div>
-          <div>
-            <h1>Why was a redesign needed?</h1>
+          <div className="proj-body-container">
+            <h2 className="proj-heading">Why was a redesign needed?</h2>
             <ul>
               <li>Information was laid out in a way that did not highlight any specific points or 
                 sections to the user, making it incredibly difficult to skim
@@ -142,17 +143,17 @@ function Lfslc() {
               </li>
             </ul>
           </div>
-          <div>
-            <h1>The Redesign</h1>
+          <div className="proj-body-container">
+            <h2 className="proj-heading">The Redesign</h2>
             <p>
               Shown below is a side by side comparison of the old and redesigned version of a 
               selection of pages from the website. Some of the key changes include improved 
               information architecture, as well as new visuals that are consistent with the 
               faculty’s new branding.
             </p>
-            <h2>Pages</h2>
+            <h3 className="proj-subheading">Pages</h3>
             <div>
-              <div>
+              <div className="slide-show">
                 <button onClick={() => setPicState(0)}>Home</button>
                 <button onClick={() => setPicState(1)}>Booking</button>
                 <button onClick={() => setPicState(2)}>Support Catalogue</button>
@@ -246,8 +247,10 @@ function Lfslc() {
 
         </div>
 
-        <div className="proj-toc-container">
-          <p>Overview & Role</p>
+        <div className="proj-toc-container">   
+          <HashLink to="/project-lfslc#overview">
+            <p>Overview</p>
+          </HashLink>
           <p>Why a Redesign?</p>
           <p>Redesign</p>
           <p>Design Process</p>

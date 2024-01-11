@@ -16,7 +16,7 @@
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1.5fr 0.45fr;
-  grid-gap: 40px;
+  grid-gap: 30px;
 }
 
 .proj-content-container {
@@ -28,5 +28,11 @@
 .proj-toc-container {
   position: fixed;
   right: 0;
-  padding-right: 200px;
+  padding-right: 185px;
+  border-left: 2px solid grey;
+}
+
+.proj-toc-container p {
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
