@@ -33,8 +33,14 @@ function Proto({picState}) {
     case 0:
       return (
         <div className="two_col_cont">
-          <img src={oldhome} alt="old home page" />
-          <img src={newhome} alt="new home page" />
+          <div>
+            <p>PREVIOUS</p>
+            <img src={oldhome} alt="old home page" />
+          </div>
+          <div>
+            <p>NEW</p>
+            <img src={newhome} alt="new home page" />
+          </div>
         </div>
       )
 
@@ -107,51 +113,40 @@ function Lfslc() {
               <p>
                 The UBC LFS Learning Centre offers IT assistance and multimedia services to 
                 UBC's LFS (Land and Food Systems) faculty members, staff, and graduate students. 
-                I led the redesign and implemented the changes with input and feedback from my 
-                colleagues at the Learning Centre, as well as faculty members and staff.
+                I led and implemented the entire redesign as an intern at the Learning Centre.
               </p>
             </div>
             <div className="col-right">
               <h2 className="proj-heading">Role</h2>
               <ul>
-                <li>UX Designer</li>
-                <li>UI Designer</li>
-                <li>Front-end Developer</li>
+                <li>UI/UX Design</li>
+                <li>Front-end Development</li>
               </ul>
             </div>
           </div>
+          <div className="content-spacer" id="purpose"></div>
           <div className="proj-body-container">
             <h2 className="proj-heading">Why was a redesign needed?</h2>
             <ul>
-              <li>Information was laid out in a way that did not highlight any specific points or 
-                sections to the user, making it incredibly difficult to skim
+              <li>
+                Information was difficult to find as a result of poor information architecture
               </li>
               <li>
-                Many pages lacked call to actions - users were often unsure of the page’s purpose 
-                and where to go or what to do next
+                Many pages lacked a clear purpose or call to action (CTA)
               </li>
               <li>
-                The website lacked visuals and was extremely text-heavy, making the layout very 
-                cluttered and difficult to navigate
-              </li>
-              <li>
-                There were many standalone pages that were created but never maintained or updated
-              </li>
-              <li>
-                The faculty had just changed its branding identity and the website was out of sync 
-                with said changes
+                Branding was inconsistent with the faculty's new branding
               </li>
             </ul>
           </div>
+          <div className="content-spacer" id="redesign"></div>
           <div className="proj-body-container">
             <h2 className="proj-heading">The Redesign</h2>
             <p>
-              Shown below is a side by side comparison of the old and redesigned version of a 
-              selection of pages from the website. Some of the key changes include improved 
-              information architecture, as well as new visuals that are consistent with the 
-              faculty’s new branding.
+              Below is a side by side comparison of old and redesigned versions of pages from the website.
+              Key changes include improved information architecture, as well as updated visuals.
             </p>
-            <h3 className="proj-subheading">Pages</h3>
+            <div className="content-spacer"></div>
             <div>
               <div className="slide-show">
                 <button onClick={() => setPicState(0)}>Home</button>
@@ -164,9 +159,10 @@ function Lfslc() {
               <Proto picState={picState} />
             </div>
           </div>
+          <div className="content-spacer" id="process"></div>
           <div>
-            <h1>The Design Process</h1>
-            <h2>Initial User Research</h2>
+            <h2 className="proj-heading">The Design Process</h2>
+            <h3 className="proj-subheading">Initial User Research</h3>
             <p>
               I started off the project by conducting some usability tests with my colleagues 
               at the Learning Centre and faculty staff, as I was previously told that the website 
@@ -175,7 +171,7 @@ function Lfslc() {
               staff to show me how they would navigate to specific pages, specifically a top-level 
               page, a sub-category page, and a specific sub-page. 
             </p>
-            <h3>Results</h3>
+            <h3 className="proj-subheading">Results</h3>
             <ul>
               <li>Top-level pages were navigated to without any extra clicks 100% of the time</li>
               <li>Sub-category pages were navigated to without any extra clicks 70% of the time</li>
@@ -187,7 +183,7 @@ function Lfslc() {
               sub-pages were difficult to navigate to and users often had to click through multiple 
               extraneous pages to find what they were looking for.
             </p>
-            <h2>Previous State</h2>
+            <h3 className="proj-subheading">Previous State</h3>
             <p>
               Given the observations from the initial user research, I identified that the information 
               architecture could likely be improved on. I started off by mapping out the website 
@@ -202,7 +198,7 @@ function Lfslc() {
               Sub-pages of each category are outlined in blue.
             </p>
             <img src={pia} alt="previous state diagram" />
-            <h2>New State</h2>
+            <h3 className="proj-subheading">New State</h3>
             <p>
               After analyzing the current website state, it became apparent that the website would 
               benefit from a restructuring. I began this process by re-establishing the categories that 
@@ -221,14 +217,15 @@ function Lfslc() {
               longer being maintained and therefore could be removed or condensed into other pages.
             </p>
             <img src={nia} alt="new state diagram" />
-            <h2>Laying Out the Content</h2>
+            <h3 className="proj-subheading">Laying Out the Content</h3>
             <div className="three_col_cont">
               <img src={home_wf} alt="home page wireframe"/>
               <img src={booking_wf} alt="booking page wireframe" />
               <img src={resource_wf} alt="resource page wireframe" />
             </div>
+            <div className="content-spacer" id="feedback"></div>
             <div>
-              <h1>User Feedback</h1>
+              <h2 className="proj-heading">User Feedback</h2>
               <p>
                 While I was unable to conduct usability tests after the redesign due to time constraints, 
                 one of my colleagues at the Learning Centre conducted a short analytics before and after 
@@ -236,8 +233,9 @@ function Lfslc() {
                 had improved and that users were now able to find what they needed on the website more frequently.
               </p>
             </div>
+            <div className="content-spacer" id="final"></div>
             <div>
-              <h1>Final Product</h1>
+              <h2 className="proj-heading">Final Product</h2>
               <p>
                 Below is a selection of the final designs for the webpages. Click here to view the website 
                 (design is subject to change and may not necessarily reflect my design).
@@ -251,11 +249,21 @@ function Lfslc() {
           <HashLink to="/project-lfslc#overview">
             <p>Overview</p>
           </HashLink>
-          <p>Why a Redesign?</p>
-          <p>Redesign</p>
-          <p>Design Process</p>
-          <p>User Feedback</p>
-          <p>Final Product</p>
+          <HashLink to="/project-lfslc#purpose">
+            <p>Why a Redesign?</p>
+          </HashLink>
+          <HashLink to="/project-lfslc#redesign">
+            <p>Redesign</p>  
+          </HashLink>
+          <HashLink to="/project-lfslc#process">
+            <p>Design Process</p>
+          </HashLink>
+          <HashLink to="/project-lfslc#feedback">
+            <p>User Feedback</p>
+          </HashLink>
+          <HashLink to="/project-lfslc#final">
+            <p>Final Product</p>
+          </HashLink>
         </div>
 
       </div>

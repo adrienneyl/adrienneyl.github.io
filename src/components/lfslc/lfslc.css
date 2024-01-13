@@ -11,6 +11,7 @@
 }
 
 .two_col_cont {
+    padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -25,7 +26,7 @@
 
 .proj-title {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .proj-heading {
@@ -50,4 +51,14 @@ ul {
     padding-right: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.content-spacer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.thin-content-spacer {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
