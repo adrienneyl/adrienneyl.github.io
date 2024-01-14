@@ -32,6 +32,10 @@
     padding-bottom: 10px;
 }
 
+.proj-heading-spacer {
+    padding-bottom: 20px;
+}
+
 .proj-subheading {
     padding-bottom: 10px;
 }
@@ -57,10 +61,19 @@ ul {
 }
 
 .slide-show button {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.toggle-button-light {
+    background-color: #F3FAFF;
+}
+
+.toggle-button-dark {
+    background-color: #2F5D7C;
+    color: white;
 }
 
 .content-spacer {
@@ -71,4 +84,25 @@ ul {
 .thin-content-spacer {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.check-col-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.check-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.check-icon {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }

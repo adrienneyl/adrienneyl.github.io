@@ -3,6 +3,9 @@ import { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import './lfslc.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faCircleCheck, faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+
 import Footer from "./../../components/footer/Footer";
 
 import widemockup from '../../assets/lfslc/widemockup.jpg';
@@ -91,6 +94,13 @@ function Proto({picState}) {
 function Lfslc() {
   const [picState, setPicState] = useState(0);
 
+  const homeStyle = picState === 0 ? "toggle-button-dark" : "toggle-button-light";
+  const bookingStyle = picState === 1 ? "toggle-button-dark" : "toggle-button-light";
+  const supportStyle = picState === 2 ? "toggle-button-dark" : "toggle-button-light";
+  const teachStyle = picState === 3 ? "toggle-button-dark" : "toggle-button-light";
+  const techStyle = picState === 4 ? "toggle-button-dark" : "toggle-button-light";
+  const eventStyle = picState === 5 ? "toggle-button-dark" : "toggle-button-light";
+
   return (
     <div className="footer-container">
 
@@ -143,20 +153,21 @@ function Lfslc() {
             <div className="content-spacer"></div>
             <div className="center">
               <div className="slide-show">
-                <button onClick={() => setPicState(0)}>Home</button>
-                <button onClick={() => setPicState(1)}>Booking</button>
-                <button onClick={() => setPicState(2)}>Support Catalogue</button>
-                <button onClick={() => setPicState(3)}>Teaching Resources</button>
-                <button onClick={() => setPicState(4)}>Tech Resources</button>
-                <button onClick={() => setPicState(5)}>Events</button>
+                <button onClick={() => setPicState(0)} className={homeStyle}>Home</button>
+                <button onClick={() => setPicState(1)} className={bookingStyle}>Booking</button>
+                <button onClick={() => setPicState(2)} className={supportStyle}>Support Catalogue</button>
+                <button onClick={() => setPicState(3)} className={teachStyle}>Teaching Resources</button>
+                <button onClick={() => setPicState(4)} className={techStyle}>Tech Resources</button>
+                <button onClick={() => setPicState(5)} className={eventStyle}>Events</button>
               </div>
               <div className="content-spacer"></div>
+              <div className="thin-content-spacer"></div>
               <div className="two_col_cont">
                 <div className="center-text">
-                  <p>PREVIOUS</p>
+                  <h3>PREVIOUS</h3>
                 </div>
                 <div className="center-text">
-                  <p>NEW</p>
+                  <h3>NEW</h3>
                 </div>
               </div>
               <div className="content-spacer"></div>
@@ -164,64 +175,66 @@ function Lfslc() {
             </div>
           </div>
           <div className="content-spacer" id="process"></div>
-          <div>
-            <h2 className="proj-heading">The Design Process</h2>
+          <div className="proj-body-container">
+            <h2 className="proj-heading-spacer">The Design Process</h2>
             <h3 className="proj-subheading">Initial User Research</h3>
             <p>
-              I started off the project by conducting some usability tests with my colleagues 
-              at the Learning Centre and faculty staff, as I was previously told that the website 
-              was very disorganized and hard to navigate. After fully exploring the website on 
-              my own and becoming familiar with the old design, I asked each colleague and faculty 
-              staff to show me how they would navigate to specific pages, specifically a top-level 
-              page, a sub-category page, and a specific sub-page. 
+              I started off the project by conducting quick usability tests with my colleagues 
+              at the Learning Centre and faculty staff to understand where the user experience
+              could be improved. I observed the following:
             </p>
-            <h3 className="proj-subheading">Results</h3>
-            <ul>
-              <li>Top-level pages were navigated to without any extra clicks 100% of the time</li>
-              <li>Sub-category pages were navigated to without any extra clicks 70% of the time</li>
-              <li>Specific sub-pages were navigated to without any extra clicks 30% of the time</li>
-            </ul>
+            <div className="content-spacer"></div>
+            <div className="check-col-cont">
+              <div className="check-col">
+                <FontAwesomeIcon icon={faCircleCheck} size="2xl" className="check-icon" />
+                <p>Top-level pages were clear and easy to navigate to</p>
+                <div className="content-spacer"></div>
+              </div>
+              <div className="check-col">
+                <FontAwesomeIcon icon={faCircleXmark} size="2xl" className="check-icon" />
+                <p>All other pages were difficult to navigate to</p>
+                <div className="content-spacer"></div>
+              </div>
+            </div>
+            <div className="thin-content-spacer"></div>
+            <div className="content-spacer"></div>
+            <h3 className="proj-subheading">Previous Information Architecture State</h3>
             <p>
-              From these observations, I found that users were often looking for sub-category pages 
-              in different categories than the one it was currently listed in. Additionally, specific 
-              sub-pages were difficult to navigate to and users often had to click through multiple 
-              extraneous pages to find what they were looking for.
+              It was evident that the information architecture needed to be improved. Below is a map
+              of the previous information architecture. In the process of creating this map, I noticed
+              that the main pages themselves lacked relevant information or clear CTAs - most of the
+              information was contained in sub-pages that required extra clicks to navigate to.
             </p>
-            <h3 className="proj-subheading">Previous State</h3>
+            <div className="content-spacer"></div>
             <p>
-              Given the observations from the initial user research, I identified that the information 
-              architecture could likely be improved on. I started off by mapping out the website 
-              structure as denoted by the navigation bar and by observing the sections present on 
-              each main category page. As I did this, I noticed that the main pages themselves lacked 
-              relevant information or clear CTAs - most of the information was contained in sub-pages 
-              that required extra clicks to navigate to.
+              Main pages/categories are shown in filled-blue and the bullet points detail the sections 
+              of each main page. Sub-pages of each category are outlined in blue.
             </p>
-            <p>
-              Below is the previous organization of the pages on the website. The main pages/categories 
-              are shown in filled-blue and the bullet points detail the sections of each main page. 
-              Sub-pages of each category are outlined in blue.
-            </p>
+            <div className="thin-content-spacer"></div>
             <img src={pia} alt="previous state diagram" />
-            <h3 className="proj-subheading">New State</h3>
+            <div className="content-spacer"></div>
+            <h3 className="proj-subheading">New Information Architecture State</h3>
             <p>
-              After analyzing the current website state, it became apparent that the website would 
-              benefit from a restructuring. I began this process by re-establishing the categories that 
-              were most valuable to visitors of the website. I identified that the booking and events 
-              categories, as well as the homepage were most essential to visitors to the website. I 
-              further identified that a majority of the resources and news posts would be directly 
-              linked to by a Learning Centre staff member - these categories would therefore serve 
-              more as information repositories, rather than pages for users to explore. Once the 
-              significance of each category was identified, I proceeded to reorganize and refactor 
-              each page.
+              To improve the information architecture, I restructured the website to have fewer sub-pages by
+              either removing and condensing redundant information or re-assigning sub-pages to a different 
+              subcategory. This helped to reduce the number of clicks required to navigate to a page and 
+              made each page of the website more focused and purposeful. 
             </p>
+            <div className="content-spacer"></div>
             <p>
-              Below is the current organization of the pages on the website. Highlighted in yellow 
-              are the changes that were made to the existing state. In comparison to the previous state, 
-              this new state also has fewer sub-pages. Many of those sub-pages were extraneous or no 
-              longer being maintained and therefore could be removed or condensed into other pages.
+              Below is the updated information architecture. Highlighted in yellow are the changes that were made.
+              In comparison to the previous state, this new state has fewer sub-pages.
             </p>
+            <div className="thin-content-spacer"></div>
             <img src={nia} alt="new state diagram" />
+            <div className="content-spacer"></div>
             <h3 className="proj-subheading">Laying Out the Content</h3>
+            <p>
+              Below are a few selected mid-fidelity wireframes from the design process. I especially focused on
+              refreshing the homepage to better serve as a landing page that highlighted the most significant sections
+              of the website.
+            </p>
+            <div className="content-spacer"></div>
             <div className="three_col_cont">
               <img src={home_wf} alt="home page wireframe"/>
               <img src={booking_wf} alt="booking page wireframe" />
@@ -234,15 +247,15 @@ function Lfslc() {
                 While I was unable to conduct usability tests after the redesign due to time constraints, 
                 one of my colleagues at the Learning Centre conducted a short analytics before and after 
                 comparison. He found that overall, page conversion rates and user flows through the website 
-                had improved and that users were now able to find what they needed on the website more frequently.
+                had improved greatly.
               </p>
             </div>
             <div className="content-spacer" id="final"></div>
             <div>
               <h2 className="proj-heading">Final Product</h2>
               <p>
-                Below is a selection of the final designs for the webpages. Click here to view the website 
-                (design is subject to change and may not necessarily reflect my design).
+                Click <a href="https://lc.landfood.ubc.ca/" target="_blank" rel="noreferrer noopener">here</a> to 
+                view the website (subject to change and may not necessarily reflect my design if updated).
               </p>
             </div>
           </div>
