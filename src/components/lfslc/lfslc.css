@@ -11,11 +11,10 @@
 }
 
 .two_col_cont {
-    padding-top: 30px;
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-
 }
 
 .three_col_cont {
@@ -44,6 +43,17 @@
 
 ul {
     padding-left: 20px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.center-text {
+    text-align: center;
 }
 
 .slide-show button {

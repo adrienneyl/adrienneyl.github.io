@@ -33,14 +33,8 @@ function Proto({picState}) {
     case 0:
       return (
         <div className="two_col_cont">
-          <div>
-            <p>PREVIOUS</p>
-            <img src={oldhome} alt="old home page" />
-          </div>
-          <div>
-            <p>NEW</p>
-            <img src={newhome} alt="new home page" />
-          </div>
+          <img src={oldhome} alt="old home page" />
+          <img src={newhome} alt="new home page" />
         </div>
       )
 
@@ -147,7 +141,7 @@ function Lfslc() {
               Key changes include improved information architecture, as well as updated visuals.
             </p>
             <div className="content-spacer"></div>
-            <div>
+            <div className="center">
               <div className="slide-show">
                 <button onClick={() => setPicState(0)}>Home</button>
                 <button onClick={() => setPicState(1)}>Booking</button>
@@ -156,6 +150,16 @@ function Lfslc() {
                 <button onClick={() => setPicState(4)}>Tech Resources</button>
                 <button onClick={() => setPicState(5)}>Events</button>
               </div>
+              <div className="content-spacer"></div>
+              <div className="two_col_cont">
+                <div className="center-text">
+                  <p>PREVIOUS</p>
+                </div>
+                <div className="center-text">
+                  <p>NEW</p>
+                </div>
+              </div>
+              <div className="content-spacer"></div>
               <Proto picState={picState} />
             </div>
           </div>

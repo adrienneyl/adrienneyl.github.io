@@ -5,24 +5,32 @@ import { Link } from 'react-router-dom';
 import Footer from "./../../components/footer/Footer";
 
 import lfsmockup from "./../../assets/lfslc/mockup.jpg";
+import epilogmockup from "./../../assets/epilog/epimockup.jpg";
 
 function Portfolio() {
   return (
     <div className="footer-container">
       <div className="padding-container">
+        <div className="header-spacer"></div>
         <div className="intro_section">
-          <p>
-            Hi there! I'm a UI/UX designer and full-stack developer who uses their background in
+          <h1>
+            Hi there! 
+          </h1>
+          <div className="header-text-spacer"></div>
+          <h1>
+            I'm a UI/UX designer and full-stack developer who uses their background in
             engineering to create inclusive digital experiences.
-          </p>
+          </h1>
         </div>
-
+        <div className="header-spacer"></div>
         <div className="projects">
-          <h1>Selected Work</h1>
+          <h2>Selected Work</h2>
+          <div className="header-text-spacer"></div>
           <div className="proj-cols">
             <div className="proj-left-col">
-              <img></img>
-              <p>EpiLog - Seizure Tracking App</p>
+              <img src={epilogmockup} alt="epilog mockup"></img>
+              <div className="header-text-spacer"></div>
+              <h3 className="port-subheading">EpiLog - Seizure Tracking App</h3>
               <p>Providing a platform for people with epilepsy to track their condition.</p>
               <p>
                 <Link to="/project-epilog">View</Link>
@@ -30,7 +38,8 @@ function Portfolio() {
             </div>
             <div className="proj-right-col">
               <img src={lfsmockup} alt="lfs mockup"/>
-              <p>UBC LFS LC Website Redesign</p>
+              <div className="header-text-spacer"></div>
+              <h3 className="port-subheading">UBC LFS LC Website Redesign</h3>
               <p>Refreshing an internal faculty website to better serve its audience.</p>
               <p>
                 <Link to="/project-lfslc">View</Link>

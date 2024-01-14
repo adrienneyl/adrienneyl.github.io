@@ -3,3 +3,21 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
+
+.header-spacer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-text-spacer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.intro_section h1 {
+    line-height: 1.5;
+}
+
+.port-subheading {
+    padding-bottom: 5px;
+}
