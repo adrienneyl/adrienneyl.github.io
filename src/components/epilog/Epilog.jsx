@@ -7,7 +7,9 @@ function Epilog() {
   return (
     <div className="footer-container">
       <div className="padding-container">
-        <div>
+        <p>Under construction :)</p>
+
+        {/* <div>
             <h1>EpiLog</h1>
         </div>
         <div>
@@ -128,7 +130,8 @@ function Epilog() {
         </div>
         <div>
           <h1>Takeaways</h1>
-        </div>
+        </div> */}
+
       </div>
 
       <Footer />
