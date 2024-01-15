@@ -94,6 +94,11 @@ ul {
     padding-bottom: 5px;
 }
 
+.thick-content-spacer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .check-col-cont {
     display: grid;
     grid-template-columns: 1fr 1fr;

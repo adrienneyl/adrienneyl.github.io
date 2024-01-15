@@ -1,5 +1,9 @@
 import react from 'react';
+import { HashLink } from 'react-router-hash-link';
 import './epilog.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleCheck, faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 
 import Footer from "./../../components/footer/Footer";
 
@@ -28,6 +32,9 @@ import hifi3 from "./../../assets/epilog/hifi3.jpg";
 import hifi4 from "./../../assets/epilog/hifi4.jpg";
 import hifi5 from "./../../assets/epilog/hifi5.jpg";
 import hifi6 from "./../../assets/epilog/hifi6.jpg";
+
+import epijournal from "./../../assets/epilog/epijournal.png";
+import seitracker from "./../../assets/epilog/seizuretracker.png";
 
 function Epilog() {
   return (
@@ -72,20 +79,26 @@ function Epilog() {
           </div>
           <div className="content-spacer"></div>
           <div className="proj-body-container">
-            <h2 className="proj-heading">Design Process Overview</h2>
+            <h2 className="proj-heading-spacer">Design Process Overview</h2>
             <h3 className="proj-subheading">Research</h3>
-            <p>Preliminary Research</p>
             <p>Epilepsy is:</p>
-            <p>characterized by seizures, symptoms, and triggers</p>
-            <p>different for everyone who has it</p>
-            <p>treatable with various methods</p>
-            <p>It is paramount to track and observe triggers to prevent symptoms and seizures.</p>
-            <p>Market Research</p>
-            <table>
+            <ul>
+              <li>characterized by seizures, symptoms, and triggers</li>
+              <li>different for everyone who has it</li>
+              <li>treatable with various methods</li>
+            </ul>
+            <p>It is therefore paramount to track and observe triggers to prevent symptoms and seizures.</p>
+            <div className="content-spacer"></div>
+            <p><b>Market Research</b></p>
+            <table className="epi-table">
               <tr>
                 <td></td>
-                <td>Epi Icon</td>
-                <td>Sei Icon</td>
+                <td>
+                  <img src={epijournal} alt="epilepsy journal app icon" className="app-icon" />
+                </td>
+                <td>
+                  <img src={seitracker} alt="seizure tracker app icon" className="app-icon" />
+                </td>
               </tr>
               <tr>
                 <th>Criteria</th>
@@ -94,24 +107,58 @@ function Epilog() {
               </tr>
               <tr>
                 <td>Track seizures (live or after)</td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleCheck} size="xl" />
+                </td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleCheck} size="xl" />
+                </td>
               </tr>
               <tr>
                 <td>Track symptoms only</td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleXmark} size="xl" />
+                </td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleXmark} size="xl" />
+                </td>
               </tr>
               <tr>
-                <td>Medication data</td>
+                <td>Medication data*</td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleCheck} size="xl" />
+                </td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleCheck} size="xl" />
+                </td>
               </tr>
               <tr>
                 <td>Reminders (medication, refill, appointments)</td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleXmark} size="xl" />
+                </td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleXmark} size="xl" />
+                </td>
               </tr>
               <tr>
                 <td>Charts and graphs</td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleCheck} size="xl" />
+                </td>
+                <td>
+                  <FontAwesomeIcon icon={faCircleCheck} size="xl" />
+                </td>
               </tr>
               <tr>
                 <td>Pros</td>
+                <td>Ability to directly export data into PDF</td>
+                <td>Ability to sync with website interface</td>
               </tr>
               <tr>
                 <td>Cons</td>
+                <td>Confusing/outdated interface, lack of CTAs</td>
+                <td>Confusing/outdated interface, lack of CTAs</td>
               </tr>
             </table>
             <p>
@@ -119,17 +166,34 @@ function Epilog() {
               a platform that expands upon existing features in a modern and intuitive interface, 
               inherently setting it apart from other competitors.
             </p>
+
+            <div className="content-spacer"></div>
             <h3 className="proj-subheading">Ideation/Validation</h3>
             <p>
               After discussing with our stakeholder, we decided the following were the most important 
               features to design for:
             </p>
-            <p>1. Seizure/symptom tracking</p>
-            <p>2. Live record for seizures</p>
-            <p>3. Notification reminders</p>
-            <p>4. Personal in-app profile</p>
+
+            <div className="four_col_cont">
+              <div>
+                <p>1. Seizure/symptom tracking</p>
+              </div>
+              <div>
+                <p>2. Live record for seizures</p>
+              </div>
+              <div>
+                <p>3. Notification reminders</p>
+              </div>
+              <div>
+                <p>4. Personal in-app profile</p>
+              </div>
+            </div>
+            
+            <div className="content-spacer"></div>
             <p><b>Sketches</b></p>
             <p>Below are some initial sketches I did during the feature ideation session with the team.</p>
+            <div className="thin-content-spacer"></div>
+
             <div className="two_col_cont">
               <img src={sketch1} alt="sketch 1" />
               <img src={sketch2} alt="sketch 2" />
@@ -138,18 +202,22 @@ function Epilog() {
               <img src={sketch3} alt="sketch 3" />
               <img src={sketch4} alt="sketch 4" />
             </div>
+
+            <div className="content-spacer"></div>
             <h3 className="proj-subheading">Prototyping</h3>
             <p><b>Low fidelity</b></p>
             <p>
               After splitting up the proposed features with my design partner, we began designing 
               individually. Below are some of the low fidelity pages that I designed.
             </p>
+            <div className="thin-content-spacer"></div>
             <div className="four_col_cont">
               <img src={lofi1} alt="lofi 1" />
               <img src={lofi2} alt="lofi 2" />
               <img src={lofi3} alt="lofi 3" />
               <img src={lofi4} alt="lofi 4" />
             </div>
+            <div className="thick-content-spacer"></div>
             <p><b>Mid fidelity</b></p>
             <p>
               My design partner and I came back together to combine our designs. Through this process, 
@@ -157,12 +225,14 @@ function Epilog() {
               card-style sections and common iconography as familiar elements from other apps to reduce 
               the overall learning curve a new user would have with the app.
             </p>
+            <div className="thin-content-spacer"></div>
             <div className="four_col_cont">
               <img src={midfi1} alt="midfi 1" />
               <img src={midfi2} alt="midfi 2" />
               <img src={midfi3} alt="midfi 3" />
               <img src={midfi4} alt="midfi 4" />
             </div>
+            <div className="thick-content-spacer"></div>
             <p><b>Branding</b></p>
             <p>
               After combining our designs, we worked with our stakeholder to determine an appropriate color 
@@ -170,11 +240,15 @@ function Epilog() {
               we decided to make that the main color of app. We chose to use muted primary and lighter colors 
               to highlight different sections in a non-intrusive manner.
             </p>
-            <img src={branding} alt="branding" />
+            <div className="center">
+              <img src={branding} alt="branding" className="branding" />
+            </div>
+            <div className="content-spacer"></div>
             <p><b>High fidelity</b></p>
             <p>
               Below are a few pages from our high-fidelity prototype that we applied our branding color scheme to.
             </p>
+            <div className="thin-content-spacer"></div>
             <div className="three_col_cont">
               <img src={hifi1} alt="hifi 1" />
               <img src={hifi2} alt="hifi 2" />
@@ -198,6 +272,26 @@ function Epilog() {
         </div>
 
         <div className="proj-toc-container">
+          <HashLink>
+            <p>Overview</p>
+          </HashLink>
+          <HashLink>
+            <p>Design Process</p>
+          </HashLink>
+          <div className="indent-toc">
+            <HashLink>
+              <p>Research</p>
+            </HashLink>
+            <HashLink>
+              <p>Ideation/Validation</p>
+            </HashLink>
+            <HashLink>
+              <p>Prototyping</p>
+            </HashLink>
+            <HashLink>
+              <p>User Testing</p>
+            </HashLink>
+          </div>
 
         </div>
 

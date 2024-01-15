@@ -1,0 +1,20 @@
+.app-icon {
+    width: 50px;
+}
+
+.epi-table {
+
+}
+
+.epi-table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+.branding {
+    width: 50%;
+}
