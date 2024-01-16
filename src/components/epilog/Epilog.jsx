@@ -4,6 +4,7 @@ import './epilog.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck, faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import { faBookOpen, faVideo, faBell, faCircleUser } from '@fortawesome/free-solid-svg-icons';
 
 import Footer from "./../../components/footer/Footer";
 
@@ -81,13 +82,18 @@ function Epilog() {
           <div className="proj-body-container">
             <h2 className="proj-heading-spacer">Design Process Overview</h2>
             <h3 className="proj-subheading">Research</h3>
-            <p>Epilepsy is:</p>
+            <p><b>Epilepsy is:</b></p>
             <ul>
               <li>characterized by seizures, symptoms, and triggers</li>
               <li>different for everyone who has it</li>
               <li>treatable with various methods</li>
             </ul>
-            <p>It is therefore paramount to track and observe triggers to prevent symptoms and seizures.</p>
+            <div className="thin-content-spacer"></div>
+            <p>
+              Epilepsy symptoms and seizures can occur at any time and can result in medical
+              emergencies - it is therefore paramount to <b>track and observe triggers</b> to 
+              aid in recognizing potential symptoms and seizures to prevent them.
+            </p>
             <div className="content-spacer"></div>
             <p><b>Market Research</b></p>
             <table className="epi-table">
@@ -173,26 +179,34 @@ function Epilog() {
               After discussing with our stakeholder, we decided the following were the most important 
               features to design for:
             </p>
-
+            <div className="content-spacer"></div>
             <div className="four_col_cont">
-              <div>
-                <p>1. Seizure/symptom tracking</p>
+              <div className="idea-col">
+                <FontAwesomeIcon icon={faBookOpen} size="xl" className="idea-icon" />
+                <div className="thin-content-spacer"></div>
+                <p>Seizure/symptom tracking system</p>
               </div>
-              <div>
-                <p>2. Live record for seizures</p>
+              <div className="idea-col">
+                <FontAwesomeIcon icon={faVideo} size="xl" className="idea-icon" />
+                <div className="thin-content-spacer"></div>
+                <p>Live recording for seizures</p>
               </div>
-              <div>
-                <p>3. Notification reminders</p>
+              <div className="idea-col">
+                <FontAwesomeIcon icon={faBell} size="xl" className="idea-icon" />
+                <div className="thin-content-spacer"></div>
+                <p>Notification reminders</p>
               </div>
-              <div>
-                <p>4. Personal in-app profile</p>
+              <div className="idea-col">
+                <FontAwesomeIcon icon={faCircleUser} size="xl" className="idea-icon" />
+                <div className="thin-content-spacer"></div>
+                <p>Personal in-app profile</p>
               </div>
             </div>
             
-            <div className="content-spacer"></div>
+            <div className="thick-content-spacer"></div>
             <p><b>Sketches</b></p>
             <p>Below are some initial sketches I did during the feature ideation session with the team.</p>
-            <div className="thin-content-spacer"></div>
+            <div className="content-spacer"></div>
 
             <div className="two_col_cont">
               <img src={sketch1} alt="sketch 1" />
@@ -259,6 +273,7 @@ function Epilog() {
               <img src={hifi5} alt="hifi 5" />
               <img src={hifi6} alt="hifi 6" />
             </div>
+            <div className="thick-content-spacer"></div>
             <h3 className="proj-subheading">User Testing</h3>
             <p>
               After finalizing our high fidelity designs, we proceeded with user testing. We reached out to multiple 
@@ -266,6 +281,7 @@ function Epilog() {
               few suggestions for improvements for the features.
             </p>
           </div>
+          <div className="content-spacer"></div>
           <div>
             <h2>Takeaways</h2>
           </div>
@@ -290,6 +306,12 @@ function Epilog() {
             </HashLink>
             <HashLink>
               <p>User Testing</p>
+            </HashLink>
+            <HashLink>
+              <p>Takeaways</p>
+            </HashLink>
+            <HashLink>
+              <p>View Prototype</p>
             </HashLink>
           </div>
 

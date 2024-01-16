@@ -2,8 +2,37 @@
     width: 50px;
 }
 
-.epi-table {
+.idea-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border: solid 2px black;
+    border-radius: 20px;
+}
 
+.idea-col p {
+    width: 80%;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.idea-icon {
+    padding-top: 20px;
+}
+
+.epi-table table, th, td {
+    border: 1px solid black;
+}
+
+.epi-table th {
+    background-color: purple;
 }
 
 .epi-table td {
