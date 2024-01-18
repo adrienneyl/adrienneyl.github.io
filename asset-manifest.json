@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ae0d001.css",
-    "main.js": "/static/js/main.094c8377.js",
+    "main.css": "/static/css/main.b8a48edf.css",
+    "main.js": "/static/js/main.25a06003.js",
     "static/media/newteach.jpg": "/static/media/newteach.5b742f36ea07cd91c6f7.jpg",
     "static/media/newbooking.jpg": "/static/media/newbooking.61192c7bb81873aa49a3.jpg",
     "static/media/newhome.jpg": "/static/media/newhome.78018eb5a1de7e99bf8f.jpg",
@@ -17,17 +17,39 @@
     "static/media/mockup.jpg": "/static/media/mockup.8028959075a0b8bda713.jpg",
     "static/media/bpwf.jpg": "/static/media/bpwf.08f0e3b1c6d7e1137881.jpg",
     "static/media/pia.jpg": "/static/media/pia.1b84d918496be47772d7.jpg",
+    "static/media/epiwidemockup.jpg": "/static/media/epiwidemockup.a64c2d0cc50cbc6c0900.jpg",
+    "static/media/sketch1.jpg": "/static/media/sketch1.b6c9f497a0844334fb5e.jpg",
     "static/media/epimockup.jpg": "/static/media/epimockup.63d288158c0ca8f942a6.jpg",
+    "static/media/sketch2.jpg": "/static/media/sketch2.a4643987a4e7f860b2c0.jpg",
     "static/media/nia.jpg": "/static/media/nia.2b3fbb82be845308ab71.jpg",
     "static/media/hpwf.jpg": "/static/media/hpwf.3bec0c97155ad687833d.jpg",
     "static/media/oldevents.jpg": "/static/media/oldevents.4fe663bfecf945e55eb3.jpg",
+    "static/media/sketch4.jpg": "/static/media/sketch4.97c55eab0efba00ae9d8.jpg",
+    "static/media/sketch3.jpg": "/static/media/sketch3.a2ff3ac2ba0aba3446b9.jpg",
     "static/media/rwf.jpg": "/static/media/rwf.03b2b70f8992e9e2eef3.jpg",
+    "static/media/branding.jpg": "/static/media/branding.eb82f5e2c9bd52d5e58d.jpg",
+    "static/media/hifi4.jpg": "/static/media/hifi4.03b22f8cbd9118af3df4.jpg",
+    "static/media/hifi3.jpg": "/static/media/hifi3.eaa5de4746313b6f56af.jpg",
+    "static/media/hifi1.jpg": "/static/media/hifi1.5650caa975362fcc93b8.jpg",
+    "static/media/hifi5.jpg": "/static/media/hifi5.cc5f528fe5cd795bb219.jpg",
+    "static/media/hifi2.jpg": "/static/media/hifi2.061bf6e1c7af8f815c52.jpg",
+    "static/media/midfi4.jpg": "/static/media/midfi4.f68022baa9016887b277.jpg",
+    "static/media/midfi3.jpg": "/static/media/midfi3.e9b356e320d4042897bb.jpg",
+    "static/media/lofi2.jpg": "/static/media/lofi2.63f8f41e6915c5a6dcac.jpg",
+    "static/media/hifi6.jpg": "/static/media/hifi6.0d0badad33581ddc29da.jpg",
+    "static/media/midfi2.jpg": "/static/media/midfi2.236a799bcdaa765ecfa8.jpg",
+    "static/media/midfi1.jpg": "/static/media/midfi1.7742de2417d79eaa2da4.jpg",
+    "static/media/lofi4.jpg": "/static/media/lofi4.4c877c02b509c7997163.jpg",
+    "static/media/lofi3.jpg": "/static/media/lofi3.fe9d78567326db020fbd.jpg",
+    "static/media/epijournal.png": "/static/media/epijournal.7a4a4953f8533078b3a9.png",
+    "static/media/seizuretracker.png": "/static/media/seizuretracker.4303d2cd545d792e179b.png",
+    "static/media/lofi1.jpg": "/static/media/lofi1.98b35b92f8a41a840cbb.jpg",
     "index.html": "/index.html",
-    "main.1ae0d001.css.map": "/static/css/main.1ae0d001.css.map",
-    "main.094c8377.js.map": "/static/js/main.094c8377.js.map"
+    "main.b8a48edf.css.map": "/static/css/main.b8a48edf.css.map",
+    "main.25a06003.js.map": "/static/js/main.25a06003.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ae0d001.css",
-    "static/js/main.094c8377.js"
+    "static/css/main.b8a48edf.css",
+    "static/js/main.25a06003.js"
   ]
 }
