@@ -11,18 +11,16 @@ function Portfolio() {
   return (
     <div className="footer-container">
       <div className="padding-container">
-        <div className="header-spacer"></div>
+        <div className="header-spacer-top"></div>
         <div className="intro_section">
-          <h1>
-            Hi there! 
-          </h1>
+          <p>&#128075; Hi there!</p>
           <div className="header-text-spacer"></div>
-          <h1>
+          <p>
             I'm a UI/UX designer and full-stack developer who uses their background in
             engineering to create inclusive digital experiences.
-          </h1>
+          </p>
         </div>
-        <div className="header-spacer"></div>
+        <div className="header-spacer-bottom"></div>
         <div className="projects">
           <h2>Selected Work</h2>
           <div className="header-text-spacer"></div>

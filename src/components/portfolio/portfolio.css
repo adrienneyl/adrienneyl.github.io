@@ -4,9 +4,18 @@
     grid-gap: 20px;
 }
 
-.header-spacer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.intro_section p {
+    font-size: 2rem;
+}
+
+.header-spacer-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-spacer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header-text-spacer {
