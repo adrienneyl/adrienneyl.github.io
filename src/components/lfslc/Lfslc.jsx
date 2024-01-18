@@ -263,7 +263,7 @@ function Lfslc() {
         </div>
 
         <div className="proj-toc-container">   
-          <HashLink to="/project-lfslc#overview">
+          <HashLink to="/project-lfslc#">
             <p>Overview</p>
           </HashLink>
           <HashLink to="/project-lfslc#purpose">

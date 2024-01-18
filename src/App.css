@@ -28,11 +28,20 @@
 .proj-toc-container {
   position: fixed;
   right: 0;
-  padding-right: 185px;
+  padding-right: 11%;
   border-left: 2px solid grey;
 }
 
 .proj-toc-container p {
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 15px;
+}
+
+
+a:visited {
+  color: #2d1671;
+}
+
+a:hover {
+  color: #571f83;
 }

@@ -21,3 +21,7 @@
   padding-right: 10px;
   padding-left: 10px;
 }
+
+.navbar_buttons button:hover {
+  color: #571f83;
+}

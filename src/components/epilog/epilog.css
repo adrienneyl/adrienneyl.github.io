@@ -23,16 +23,27 @@
     text-align: center;
 }
 
+.empty-cell {
+    border: none;
+}
+
 .idea-icon {
-    padding-top: 20px;
+    padding-top: 24px;
 }
 
 .epi-table table, th, td {
     border: 1px solid black;
 }
 
+.epi-table {
+    border-collapse: collapse;
+}
+
 .epi-table th {
-    background-color: purple;
+    background-color: #571F83;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .epi-table td {
@@ -41,7 +52,10 @@
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
-    
+}
+
+.epi-table tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 .branding {
