@@ -63,6 +63,12 @@ h1, h2, h3 {
   color: #111111;
 }
 
+@media screen and (max-width: 360px) {
+  h1, h2, h3 {
+    line-height: 1.5;
+  }
+}
+
 a {
   text-decoration: none;
 }

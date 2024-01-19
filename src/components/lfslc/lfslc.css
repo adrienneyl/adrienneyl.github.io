@@ -119,3 +119,30 @@ ul {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 360px) {
+    .column-container {
+        display: block;
+    }
+
+    .two_col_cont {
+        display: block;
+    }
+
+    .three_col_cont {
+        display: block;
+    }
+
+    .four_col_cont {
+        display: block;
+    }
+
+    .check-col-cont {
+        display: block;
+    }
+
+    .check-col {
+        display: block;
+    }
+    
+}

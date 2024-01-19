@@ -58,6 +58,7 @@ function Epilog() {
               </p>
             </div>
             <div className="col-right">
+              <div className="mobile-spacer"></div>
               <h2 className="proj-heading">Role</h2>
               <ul>
                 <li>UI/UX Design</li>

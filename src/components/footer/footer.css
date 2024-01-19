@@ -1,7 +1,7 @@
 .footer {
   background-color: #b5a5ce;
   color: #111111;
-  
+
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -14,4 +14,13 @@
 
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .footer-content {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    font-size: 0.75rem;
+  }
 }

@@ -70,3 +70,27 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
+
+@media screen and (max-width: 360px) {
+    .about-col-cont {
+        display: block;
+    }
+    
+    .thin-mobile-spacer {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .mobile-spacer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .photo-four-col {
+        display: block;
+    }
+
+    .photo-two-col {
+        display: block;
+    }
+}

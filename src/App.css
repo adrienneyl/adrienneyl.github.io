@@ -42,11 +42,31 @@
   color: #b5a5ce;
 }
 
-
 a:visited {
   color: #111111;
 }
 
 a:hover {
   color: #b5a5ce;
+}
+
+@media screen and (max-width: 360px) {
+  .padding-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .proj-col-container {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .proj-content-container {
+    padding-left: 0px;
+  }
+
+  .proj-toc-container {
+    display: none;
+  }
 }

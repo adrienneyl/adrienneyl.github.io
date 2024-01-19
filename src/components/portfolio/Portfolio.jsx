@@ -33,6 +33,7 @@ function Portfolio() {
               <p>
                 <Link to="/project-epilog">View</Link>
               </p>
+              <div className="col-spacing"></div>
             </div>
             <div className="proj-right-col">
               <img src={lfsmockup} alt="lfs mockup"/>

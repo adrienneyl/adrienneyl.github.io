@@ -91,9 +91,7 @@ function About() {
             </div>
           </div>
         </div>
-
-        <div className="thick-content-spacer"></div>
-
+        <div className="content-spacer"></div>
         <div className="about-col-cont">
           <div></div>
           <div>
