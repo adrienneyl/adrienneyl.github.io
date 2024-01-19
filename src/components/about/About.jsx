@@ -89,26 +89,23 @@ function About() {
                   <li>Python, Java, Git (VCS)</li>
                 </ul>
             </div>
-          </div>
-        </div>
-        <div className="content-spacer"></div>
-        <div className="about-col-cont">
-          <div></div>
-          <div>
+            <div className="content-spacer"></div>
+            <div>
             <h2 className="proj-heading">&#128247; Photography</h2>
             <p>Here's a small gallery of my favorite film photos I've ever taken:</p>
             <div className="content-spacer"></div>
             <div className="photo-four-col">
-              <img src={florist} />
-              <img src={needle} />
-              <img src={pathway}/>
+              <img src={florist} className="mobile-photo" />
+              <img src={needle} className="mobile-photo" />
+              <img src={pathway} className="mobile-photo" />
               <img src={path} />
             </div>
             <div className="thin-content-spacer"></div>
             <div className="photo-two-col">
-              <img src={cafe} />
+              <img src={cafe} className="mobile-photo" />
               <img src={silverbell} />
             </div>
+          </div>
           </div>
         </div>
 
