@@ -33,14 +33,18 @@
 }
 
 .proj-toc-container p {
-  color: #2d1671;
+  color: #111111;
   padding-bottom: 10px;
   padding-left: 15px;
 }
 
+.proj-toc-container p:hover {
+  color: #b5a5ce;
+}
+
 
 a:visited {
-  color: #2d1671;
+  color: #111111;
 }
 
 a:hover {
