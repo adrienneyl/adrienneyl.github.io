@@ -47,17 +47,20 @@ function About() {
             <div className="thick-content-spacer"></div>
 
             <div className="contact-icons">
-              <a href="https://www.linkedin.com/in/adrienne-leung/" target="_blank" rel="noreferrer noopener"
-              className="contact-icon"> 
-                <FontAwesomeIcon icon={faLinkedin} size="2xl" />
+              <a href="https://www.linkedin.com/in/adrienne-leung/" target="_blank" rel="noreferrer noopener"> 
+                <div className="contact-icon">
+                  <FontAwesomeIcon icon={faLinkedin} size="2xl" />
+                </div>
               </a>
-              <a href="https://github.com/adrienneyl" target="_blank" rel="noreferrer noopener"
-              className="contact-icon">
-                <FontAwesomeIcon icon={faGithub} size="2xl" />
+              <a href="https://github.com/adrienneyl" target="_blank" rel="noreferrer noopener">
+                <div className="contact-icon">
+                  <FontAwesomeIcon icon={faGithub} size="2xl" />
+                </div>
               </a>
-              <a href="mailto:adrienne.yl07@gmail.com" target="_blank" rel="noreferrer noopener"
-              className="contact-icon">
-                <FontAwesomeIcon icon={faEnvelope} size="2xl" />
+              <a href="mailto:adrienne.yl07@gmail.com" target="_blank" rel="noreferrer noopener">
+                <div className="contact-icon">
+                  <FontAwesomeIcon icon={faEnvelope} size="2xl" />
+                </div>
               </a>  
             </div>
 
