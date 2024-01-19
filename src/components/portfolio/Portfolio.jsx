@@ -22,7 +22,7 @@ function Portfolio() {
         </div>
         <div className="header-spacer-bottom"></div>
         <div className="projects">
-          <h2>Selected Work</h2>
+          <h2>&#127793; Selected Work</h2>
           <div className="header-text-spacer"></div>
           <div className="proj-cols">
             <div className="proj-left-col">
