@@ -36,6 +36,51 @@
   color: #b5a5ce;
 }
 
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .navbar_logo {
+    font-size: 0.75rem;
+  }
+
+  .navbar_buttons button {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .navbar_logo {
+    font-size: 0.65rem;
+  }
+
+  .navbar_buttons button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .navbar_logo {
+    font-size: 0.55rem;
+  }
+
+  .navbar_buttons button {
+    font-size: 0.80rem;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .navbar {
     padding-left: 50px;

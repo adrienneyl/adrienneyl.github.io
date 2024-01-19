@@ -50,6 +50,48 @@ a:hover {
   color: #b5a5ce;
 }
 
+@media screen and (max-width: 1024px) {
+  .padding-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .proj-col-container {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .proj-content-container {
+    padding-left: 0px;
+  }
+
+  .proj-toc-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .padding-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .proj-col-container {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .proj-content-container {
+    padding-left: 0px;
+  }
+
+  .proj-toc-container {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .padding-container {
     padding-left: 50px;

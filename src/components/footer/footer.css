@@ -12,8 +12,36 @@
   padding-left: 200px;
   padding-right: 200px;
 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-content {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer-content {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer-content {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    font-size: 0.75rem;
+  }
 }
 
 @media screen and (max-width: 360px) {
