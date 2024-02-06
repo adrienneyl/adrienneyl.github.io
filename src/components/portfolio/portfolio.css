@@ -27,6 +27,58 @@
     padding-bottom: 5px;
 }
 
+.thumbnail-overlay {
+    position: relative;
+}
+
+.overlay-img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.button-overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-text-epi {
+    background-color: #9886b4;
+    color: white;
+    font-size: 18px;
+    padding: 24px 24px;
+    border-radius: 200px;
+}
+
+.overlay-text-lfslc {
+    background-color: #869fb4;
+    color: white;
+    font-size: 18px;
+    padding: 24px 24px;
+    border-radius: 200px;
+}
+
+.thumbnail-overlay:hover .overlay-img{
+    opacity: 0.3;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.thumbnail-overlay:hover .button-overlay {
+    opacity: 1;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
 @media screen and (max-width: 640px) {
     .header-spacer-top {
         padding: 0px;

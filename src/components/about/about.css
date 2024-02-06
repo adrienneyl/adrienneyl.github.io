@@ -44,8 +44,9 @@
     color: #fdfdfd;
 }
 
-.resume-button a:hover {
+.resume-button:hover a {
     color: #48147a;
+    transition: .5s ease;
 }
 
 .profile-icon {
@@ -64,6 +65,7 @@
 
 .contact-icon:hover {
     color: #48147a;
+    transition: .5s ease;
 }
 
 .photo-four-col {
