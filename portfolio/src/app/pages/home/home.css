@@ -5,10 +5,12 @@
   flex-direction: column;
 
   align-items: center;
+
+  background-color: var(--background);
 }
 
 .header-container {
-  height: 320px;
+  height: 240px;
   width: 100%;
 
   display: flex;
@@ -20,7 +22,7 @@
 
   gap: 16px;
 
-  background-color: #7CABB5;
+  background-color: var(--foreground);
 }
 
 .content-container {
@@ -29,7 +31,7 @@
   justify-content: center;
   align-items: center;
 
-  width: 80%;
+  width: 90%;
 
   padding-top: 40px;
 
@@ -46,11 +48,11 @@
 }
 
 .card {
-  border: solid 1px blue;
-
   width: 30%;
 
   border-radius: 16px;
+
+  background-color: var(--foreground);
 }
 
 .card img {
