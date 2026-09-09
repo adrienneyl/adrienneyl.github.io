@@ -79,3 +79,26 @@
   font-size: 1.25rem;
 }
 
+.home-body {
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-size: 1rem;
+
+  color: #000000;
+}
+
+.card-spacing {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #000000;
+}
