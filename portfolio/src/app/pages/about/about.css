@@ -66,15 +66,15 @@
 
 .hobbies-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
-  gap: 5%;
+  gap: 24px;
 }
 
 .hobby-row {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  flex-direction: row;
+  gap: 5%;
 }
 
 .hobby-card {
