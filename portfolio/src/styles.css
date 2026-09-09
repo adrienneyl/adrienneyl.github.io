@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  /* --main-accent: #0E5906;
+  --header-font-color: #063002;
+  --subheader-font-color: #032500;
+  --body-font-color: #000500;
+  --hovered-color: #0A3D05;
+  --disabled-color: #AAC195; */
+
+  /* --body-container-color: #FDFDF3; */
+
+  /* --accent-font: 'Gluten', cursive;
+  --header-font: 'Overlock', sans-serif;
+  --body-font: 'Hahmlet', serif; */
+
+  --header-font: "Krub", sans-serif;
+  --body-font: "Fira Sans", sans-serif;
+
+  --navbar-height: 64px;
+  --footer-height: 96px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
