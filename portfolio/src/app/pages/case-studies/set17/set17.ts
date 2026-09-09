@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-set17',
   imports: [],
   templateUrl: './set17.html',
-  styleUrl: './set17.css',
+  styleUrl: '../casestudy.css',
 })
 export class Set17 {}
