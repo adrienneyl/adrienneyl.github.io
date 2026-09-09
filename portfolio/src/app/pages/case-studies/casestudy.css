@@ -160,6 +160,13 @@
   gap: 32px;
 }
 
+.product {
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+}
+
 /* STICKY NAVBAR */
 .sticky-navbar {
   padding-left: 2.5%;
@@ -210,4 +217,21 @@
   font-size: 1.25rem;
 
   color: #999999;
+}
+
+/* SPACING HELPERS */
+.top-spacer-32 {
+  padding-top: 32px;
+}
+
+.top-spacer-24 {
+  padding-top: 24px;
+}
+
+.top-spacer-16 {
+  padding-top: 16px;
+}
+
+.top-spacer-8 {
+  padding-top: 8px;
 }
