@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+p {
+  margin: 0;
+}
+
 body {
   margin: 0;
 }
@@ -34,8 +38,8 @@ body {
   --header-font: "Krub", sans-serif;
   --body-font: "Fira Sans", sans-serif;
 
-  --navbar-height: 64px;
-  --footer-height: 96px;
+  --navbar-height: 56px;
+  --footer-height: 80px;
 }
 
 .no-scroll {

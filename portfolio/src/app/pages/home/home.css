@@ -7,14 +7,33 @@
   align-items: center;
 }
 
-.content-container {
+.header-container {
+  height: 320px;
+  width: 100%;
+
   display: flex;
   flex-direction: column;
 
   justify-content: center;
   align-items: center;
+  text-align: center;
+
+  gap: 16px;
+
+  background-color: #7CABB5;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   width: 80%;
+
+  padding-top: 40px;
+
+  gap: 16px;
 }
 
 .case-study-cards {
@@ -31,9 +50,30 @@
 
   width: 30%;
 
-  border-radius: 
+  border-radius: 16px;
 }
 
 .card img {
   width: 100%;
+  border-radius: 16px 16px 0px 0px;
 }
+
+/* FONT ADJUSTMENTS */
+.home-title {
+  font-family: var(--header-font);
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.home-header {
+  font-family: var(--header-font);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.home-subheader {
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
