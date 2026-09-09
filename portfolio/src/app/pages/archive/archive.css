@@ -5,6 +5,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  background-color: var(--background);
 }
 
 .notice {
@@ -24,7 +26,8 @@
 
   border-radius: 16px;
 
-  background-color: #7CABB5;
+  background-color: var(--foreground);
+  color: var(--background);
 }
 
 /* FONT ADJUSTMENTS */
