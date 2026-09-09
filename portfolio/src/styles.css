@@ -35,6 +35,10 @@ body {
   --header-font: 'Overlock', sans-serif;
   --body-font: 'Hahmlet', serif; */
 
+  --background: #4d4b46;
+  --foreground: #f2eade;
+  --highlight: #f2eade;
+
   --header-font: "Krub", sans-serif;
   --body-font: "Fira Sans", sans-serif;
 
