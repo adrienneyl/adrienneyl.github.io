@@ -46,3 +46,12 @@
   font-weight: 400;
   font-size: 0.8rem;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: var(--foreground);
+}
