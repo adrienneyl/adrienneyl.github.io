@@ -4,6 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-set18',
   imports: [],
   templateUrl: './set18.html',
-  styleUrl: '../casestudy.css',
+  styleUrls: [
+    '../casestudy.css',
+    './set18.css'
+  ]
 })
 export class Set18 {}
