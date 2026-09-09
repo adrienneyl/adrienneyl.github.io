@@ -4,11 +4,23 @@
   display: flex;
   flex-direction: row;
 
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 
   background-color: var(--background);
   border-bottom: solid 1px var(--foreground);
+}
+
+.logo-link {
+  margin-top: 4px;
+}
+
+.logo {
+  width: 32px;
+}
+
+.logo:hover {
+  cursor: pointer;
 }
 
 .navbar-buttons button {
@@ -37,7 +49,7 @@
 .right {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 16px;
 
   align-self: center;
   margin-left: auto;

@@ -4,6 +4,8 @@
 
   padding-top: 24px;
   padding-bottom: 96px;
+
+  background-color: var(--background);
 }
 
 .page-content {
@@ -61,13 +63,14 @@
 }
 
 .content-container {
-  border: 1px solid purple;
   border-radius: 16px;
 
   padding-top: 24px;
   padding-bottom: 40px;
   padding-left: 32px;
   padding-right: 32px;
+
+  background-color: var(--foreground);
 }
 
 .content-body-container {
