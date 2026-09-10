@@ -98,19 +98,6 @@
   margin: 32px 0;
 }
 
-.tricard {
-  display: flex;
-  flex-direction: row;
-
-  justify-content: center;
-
-  gap: 2.5%;
-}
-
-.tricard .card {
-  width: 30%;
-}
-
 .duocard {
   display: flex;
   flex-direction: row;
@@ -134,7 +121,7 @@
   border-radius: 8px 8px 0px 0px;
 }
 
-.card p {
+.duocard .card p {
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 12px;

@@ -1,3 +1,23 @@
 .preview {
   width: 100%;
 }
+
+.tricard {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  gap: 2%;
+}
+
+.tricard .card {
+  width: 32%;
+}
+
+.tricard .card .indexed-text-group {
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
