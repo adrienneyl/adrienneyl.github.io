@@ -130,3 +130,17 @@ ul {
   flex-direction: column;
   gap: 8px;
 }
+
+/* RESPONSIVE MEDIA QUERIES */
+@media (width < 800px) {
+  .top-container {
+    flex-direction: column;
+  }
+
+  .bottom-container {
+    .hobby-row {
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+}
