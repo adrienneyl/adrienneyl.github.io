@@ -13,3 +13,8 @@
 .stats-duo .right {
   width: 49%;
 }
+
+.reviews {
+  width: 50%;
+  align-self: center;
+}
