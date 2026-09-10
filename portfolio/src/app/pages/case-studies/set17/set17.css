@@ -1,0 +1,15 @@
+.stats-duo {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+
+.stats-duo .left {
+  width: 49%;
+} 
+
+.stats-duo .right {
+  width: 49%;
+}

@@ -1,6 +1,5 @@
 .page-container {
   display: flex;
-  flex-direction: row;
 
   padding-top: 24px;
   padding-bottom: 96px;
@@ -13,7 +12,7 @@
   flex-direction: column;
 
   padding-left: 10%;
-  width: 80%;
+  padding-right: 10%;
 }
 
 .header-container {
@@ -115,16 +114,16 @@
 
   justify-content: center;
 
-  gap: 2.5%;
+  gap: 2%;
 }
 
-.duocard .card {}
+.duocard .card {
+  width: 49%;
+}
 
 .card {
-  border-left: 1px solid var(--background);
-  border-right: 1px solid var(--background);
-  border-bottom: 1px solid var(--background);
-  border-radius: 8px;
+  border-radius: 10px;
+  background-color: var(--highlight);
 }
 
 .card img {
@@ -167,9 +166,21 @@
   gap: 32px;
 }
 
+.letter-tail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 32px;
+}
+
 /* STICKY NAVBAR */
-.sticky-navbar {
+/* .sticky-navbar {
   padding-left: 2.5%;
+} */
+
+.sticky-navbar {
+  display: none;
 }
 
 /* FONT ADJUSTMENTS */
