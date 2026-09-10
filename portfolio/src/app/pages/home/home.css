@@ -7,6 +7,8 @@
   align-items: center;
 
   background-color: var(--background);
+
+  padding-bottom: 64px;
 }
 
 .header-container {

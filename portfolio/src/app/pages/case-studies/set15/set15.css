@@ -21,3 +21,16 @@
   padding-right: 16px;
   padding-bottom: 16px;
 }
+
+@media (width < 1200px) {
+  .tricard {
+    display: flex;
+    flex-direction: column;
+
+    gap: 32px;
+  }
+
+  .tricard .card {
+    width: 100%;
+  }
+}
