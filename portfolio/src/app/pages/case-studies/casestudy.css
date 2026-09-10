@@ -164,6 +164,13 @@
   padding-top: 32px;
 }
 
+.hero-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
 /* STICKY NAVBAR */
 /* .sticky-navbar {
   padding-left: 2.5%;
@@ -174,6 +181,14 @@
 }
 
 /* FONT ADJUSTMENTS */
+.page-title {
+  font-family: var(--body-font);
+  font-weight: 500;
+  font-size: 1.5rem;
+
+  margin-bottom: -16px;
+}
+
 .header-title {
   font-family: var(--body-font);
   font-weight: 500;
